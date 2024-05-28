@@ -1,2 +1,9 @@
 # Electricity-Theft-Detection-using-Smart-Meter-Data-in-Smart-Grid
-This work includes unsupervised approach for electricity theft detection in smart grid.
+This work includes unsupervised approach for electricity theft detection in smart grid. The project includes python implementation of feature engineering, considering the context for theft detection, and k-NN algorithm.
+
+For more details about the work: https://doi.org/10.1016/j.segan.2022.100833
+
+
+**Abstract:**
+
+The smart grid offers numerous potential benefits for energy management by two-way information transmission. However, the incorporation of smart infrastructure such as smart meters into the grid systems made it vulnerable to various communication attacks. The electricity consumption data coming from the smart meters can be acquired and analyzed to detect malicious behavior, tampering, and data manipulation. In this paper, a pattern-based and context-aware approach for electricity theft detection (PCETD) is proposed to mitigate the challenges of theft-based Non-Technical Losses (NTLs). The proposed approach considers the relevant calendar context and features of daily electricity demand for a given day to compute the probability of customers being malicious. In this process, a combination of dynamic time warping (DTW) and k-nearest neighbors (k-NN) is proposed, where DTW is utilized to capture the relationship between two consumption patterns correctly, and k-NN is employed to rank the anomalousness of the given day. This research introduces several forms of theft attacks and assesses the effectiveness of the proposed approach. The results exhibited the overall F1-score for the proposed approach to be 94%, the True-Positive Rate (TPR) as 93%, and the False-Positive Rate (FPR) as 1.1%, which substantiates the efficiency of the model in detecting electricity theft. These findings further advocate that the approach outperforms the prior contributions in terms of high detection rate and low false-positive rate. Electric utilities can be provided with anomaly scores and plan on-site inspections to catch fraudulent customers.
